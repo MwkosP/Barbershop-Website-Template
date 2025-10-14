@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+#hrblueonly {
+  border: 0;
+  height: 2px;
+  background: linear-gradient(to right, #00eaff, #007bff, #00eaff);
+  box-shadow: 0 0 5px #00eaff, 0 0 5px #007bff;
+  border-radius: 10px;
+  
+}
+
+#hrblue {
+  width: 55%;
+  margin: 1.5rem auto;
+  border: none;
+  margin: 0 auto;
+  height: 2px;
+  background: linear-gradient(to right, #00eaff, #007bff, #00eaff);
+  border-radius: 10px;
+  box-shadow: 0 0 8px #00eaff; /* soft glow right around the line */
+}
+
+
+
+/*ANIMATIONS*/
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn-07 {
+  animation: fadeIn 0.7s ease-in-out forwards;
+}
+
+.animate-fadeIn-15 {
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+.animate-fadeIn-2 {
+  animation: fadeIn 2s ease-in forwards;
+}
+
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px); /* start 40px left */
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0); /* move to normal position */
+  }
+}
+
+.animate-fadeInLeft {
+  animation: fadeInLeft 2s ease-out forwards;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(+40px); /* start 40px left */
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0); /* move to normal position */
+  }
+}
+
+.animate-fadeInRight {
+  animation: fadeInRight 2s ease-out forwards;
+}
+
+
+
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-appear {
+  animation: appear 0.8s ease-in-out forwards;
+  animation-delay: 3s; /* 👈 how long to wait before showing */
+}
+
+
+
+
+
+
+@keyframes soft-bounce {
+  0%, 100% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(-10px); /* smaller bounce height */
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.animate-soft-bounce {
+  animation: soft-bounce 2.5s infinite;
+}
+

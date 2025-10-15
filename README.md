@@ -8,7 +8,10 @@ It includes smooth animations, scroll effects, and a booking button integration 
 ## 🚀 Demo
 
 🎥 **Video Preview:**  
-[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/maxresdefault.jpg)](https://youtu.be/YOUR_VIDEO_ID_HERE)
+<video autoPlay loop muted playsInline className="w-full rounded-2xl shadow-lg">
+  <source src="/demo.mp4" type="video/mp4" />
+</video>
+
 
 Or view it live here:  
 👉 https://your-demo-link.vercel.app

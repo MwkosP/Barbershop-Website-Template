@@ -8,9 +8,8 @@ It includes smooth animations, scroll effects, and a booking button integration 
 ## 🚀 Demo
 
 🎥 **Video Preview:**  
-<video autoPlay loop muted playsInline className="w-full rounded-2xl shadow-lg">
-  <source src="/demo.mp4" type="video/mp4" />
-</video>
+[🎥 Watch demo video](./demo.mp4)
+
 
 
 Or view it live here:  

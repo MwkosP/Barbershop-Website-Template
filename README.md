@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💈 Dante Barbershop — Modern Next.js Website
 
-## Getting Started
+A modern, fully responsive **barbershop website** built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
+It includes smooth animations, scroll effects, and a booking button integration (Fresha ready).
 
-First, run the development server:
+---
+
+## 🚀 Demo
+
+🎥 **Video Preview:**  
+[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/maxresdefault.jpg)](https://youtu.be/YOUR_VIDEO_ID_HERE)
+
+Or view it live here:  
+👉 https://your-demo-link.vercel.app
+
+---
+
+## 🧩 Features
+
+- ⚡ Built with **Next.js 14 + TypeScript**
+- 🎨 Styled using **Tailwind CSS**
+- ✨ Smooth animations (fade, bounce, appear)
+- 📱 Fully responsive (mobile-first)
+- 💬 Greek language content (multi-section layout)
+- 📍 Location links to Google Maps
+- 🔗 Social media integration (Facebook, Instagram, TikTok)
+- 📅 Booking CTA ready for **Fresha** integration
+
+---
+
+## 🧠 Tech Stack
+
+| Technology | Description |
+|-------------|--------------|
+| **Next.js** | React framework for server-side rendering |
+| **Tailwind CSS** | Utility-first CSS framework |
+| **TypeScript** | Type-safe JavaScript |
+| **Lucide Icons** | Modern SVG icon library |
+| **Lottie** | Animated vector icons (used for barber icon animation) |
+
+---
+
+## 🧰 Installation & Setup
 
 ```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/dante-barbershop.git
+
+# Navigate into the project
+cd dante-barbershop
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

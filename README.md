@@ -44,7 +44,7 @@ It includes smooth animations, scroll effects, and a booking button integration 
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/dante-barbershop.git
+git clone https://github.com/YOUR_USERNAME/Barbershop-Website-Template.git
 
 # Navigate into the project
 cd dante-barbershop

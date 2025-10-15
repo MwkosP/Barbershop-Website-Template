@@ -10,6 +10,8 @@ It includes smooth animations, scroll effects, and a booking button integration 
 🎥 **Video Preview:**  
 ![Demo](./demo.gif)
 
+[🎥 Watch demo video](./demo.mp4)
+
 
 
 

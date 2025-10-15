@@ -1,4 +1,4 @@
-# 💈 Dante Barbershop — Modern Next.js Website
+# 💈Barbershop — Modern Next.js Website
 
 A modern, fully responsive **barbershop website** built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
 It includes smooth animations, scroll effects, and a booking button integration (Fresha ready).

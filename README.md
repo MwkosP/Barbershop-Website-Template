@@ -1,6 +1,6 @@
 # 💈Barbershop — Modern Next.js Website
 
-A modern, fully responsive **barbershop website** built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
+A modern, fully responsive **barbershop website** Beggining Template for anyone to use built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
 It includes smooth animations, scroll effects, and a booking button integration (Fresha ready).
 
 ---
@@ -10,6 +10,7 @@ It includes smooth animations, scroll effects, and a booking button integration 
 🎥 **Video Preview:**  
 ![Demo](./demo.gif)
 
+**Watch entire Preview here(press link & view raw, will shortly download video):**
 [🎥 Watch demo video](./demo.mp4)
 
 

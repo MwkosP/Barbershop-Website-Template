@@ -12,8 +12,6 @@ It includes smooth animations, scroll effects, and a booking button integration 
 
 
 
-Or view it live here:  
-👉 https://your-demo-link.vercel.app
 
 ---
 
